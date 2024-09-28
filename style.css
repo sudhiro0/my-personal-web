@@ -1,0 +1,30 @@
+body{
+margin: 0;
+padding:0;
+box-sizing: border-box;
+}
+.main-heading{
+    color:green;
+    background-color:bisque;
+    text-align: center;
+}
+.maincontainer li{
+    display: flex;
+    
+   justify-content: space-between;
+    text-decoration: none;
+    color: aqua;
+    list-style: none;
+}
+ul .navitem{
+    display: inline-block;
+    text-align:center;
+    margin-right:20px ;
+   
+}
+.navitem a{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+
+}
